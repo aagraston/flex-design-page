@@ -1,0 +1,1 @@
+This is a simple css and html page set up for the purposes of familiarizing with flex and other design principles learned through 'The Odin Project'
