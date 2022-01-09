@@ -1,19 +1,45 @@
-.page-wrapper {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
+/* all page */
+.page-wrapper {
+  font-family: 'Roboto', sans-serif;
 }
 
+/* header section */
 .header-section {
-
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 .header-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 300px 0px 300px;
 
+}
+
+.header-top-bar .logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.header-top-bar .header-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header-top-bar .link {
+  font-size: 18px;
 }
 
 .header-information {
 
 }
 
+/* information section */
 .information-section {
 
 }
@@ -26,6 +52,7 @@
 
 }
 
+/* quote section */
 .quote-section {
 
 }
@@ -34,6 +61,7 @@
 
 }
 
+/* sign-up section */
 .sign-up-section {
 
 }
@@ -42,7 +70,11 @@
 
 }
 
+
+/* footer */
 .footer {
 
 }
+
+/* text classes */
 
