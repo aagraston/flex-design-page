@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 
 /* reset */
@@ -40,32 +40,101 @@ margin: 0;
 }
 
 .header-top-bar .link {
+  font-weight: 300;
   font-size: 18px;
 }
 
 .header-information {
   display: flex;
   flex-direction: row;
-  padding: 0px 300px 0px 300px;
-  gap: 20px;
+  padding: 60px 300px 100px 300px;
+  gap: 40px;
+}
+
+.header-information-text {
+  max-width: 50%;
+}
+
+.header-information-description .text-main {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.header-information-text * {
+  margin: 0;
+}
+
+.header-information-image {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  background-color: #F9FAF8;
+  opacity: 0.5;
+}
+
+.header-information-text .sign-up-button {
+  background-color: #3882F6;
+  padding: 8px 30px 8px 30px;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+.image-column {
+  object-fit: contain;
 }
 
 /* information section */
 .information-section {
+  padding: 0px 300px 80px 300px;
 
 }
 
 .information-title {
+  width: 100%;
+}
 
+.information-title h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .information-items {
+  display: flex; 
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+}
 
+.information-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-image {
+  width: 135px;
+  height: 135px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.information-text {
+  text-align: center;
 }
 
 /* quote section */
 .quote-section {
-
+  background-color: #E5E7EB;
+  padding: 0px 300px 0px 300px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
 }
 
 .quote-quotes {
@@ -91,4 +160,22 @@ margin: 0;
 h2 {
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: -10px; 
+}
+
+p {
+  margin-top: 10px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+cite {
+  text-align: right;
+  font-weight: 600;
+  display: block;
+  padding-right: 100px;
+  font-style: normal;
 }
