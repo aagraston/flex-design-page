@@ -180,7 +180,12 @@ margin: 0;
 
 /* footer */
 .footer {
-
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* text classes */
@@ -197,6 +202,7 @@ p {
 blockquote {
   font-size: 36px;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 cite {
